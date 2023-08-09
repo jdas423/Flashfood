@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;800&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+ }
+
+ html,body{
+    width: 100%;
+    height: 100%;
+ }
+
+ ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+ }  
+
+ a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+ }
+
+ button{
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+ }
+ nav{
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 150px;
+    background-color: rgb(66, 48, 221);
+    opacity: 0.9;
+ }
+
+ .wrap-out{
+    display: flex;
+    height: fit-content;
+    width: 1120px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+ }
+
+ .wrap-out li{
+   padding:20px;
+ }
+
+ .wrap-out button{
+    max-width: 136px;
+    line-height: 21px;
+    background-color: #caf4e0;
+    padding: 14px;
+    color: #4230dd;
+    border: 1px solid #caf4e0;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 6px 6px #1c1279;
+ }  
+
+ .arw::after{
+    content:">";
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    margin-left: 10px;
+    transform: scaleX(1.3) scaleY(0.6) rotate(90deg);
+ }
+
+ main{
+    width:100%;
+    height: 100%;
+ }
+ .conceal{
+    background-color: #4230dd;
+    width:100%;
+    height: 150px;
+ }
+
+ .bg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    background-color: white;
+ }
+ .bg > div{
+    width:100%;
+    height: 100%;
+    background-image: url(./pictures/main/bg.png);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .wrapper{
+    color:white;
+    font-family: 'Figtree', sans-serif;
+    width:1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+ }
+ .wrapper > div{
+    max-width:500px;
+    height: fit-content;
+    float:left;
+  }
+ .wrap-1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+ }
+
+ .wrap-2{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+ }
+
+ .wrap-3{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 14px;
+    font-weight: 400;
+ }
+
+ .wrap-3 svg{
+   height: 42px;
+    width: 127px;
+ }
+ .wrap-3 div{
+    padding-right:8px;
+    line-height: 1px;
+    text-transform: capitalize;
+ }
+
+ .wrap-3 > div:last-child::after{
+    content:">";
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+    transform: scaleX(1.3) scaleY(1.3);
+ }
+
+ .drop-down{
+   display: none;
+   width:73px;
+   height: 60px;
+ }
+
+ .drop-down div{
+   width: 100%;
+   height: fit-content;
+   text-align: center;
+   color: white;
+ }
+
+ .drop-down div:first-child{
+   margin-top: 10px;
+    margin-bottom: -8px;
+ }
+ 
+ .drop-down div:nth-child(3){
+   margin-top: -8px;
+ }
+   
+.arw{
+   position: relative;
+}
+ #dp{
+   display:none;
+   position: relative;
+   width:200px;
+   height: 383px;
+   margin-top: 32px;
+   left:-121px;
+ }
+
+ .inside{
+   display: none;
+   width: 159px;
+   position: absolute;
+   top: 44px;
+   left: 2px;
+   flex-wrap: wrap;
+   background-color: rgb(66, 48, 221);
+   border-radius: 10px;
+ }
+
+ .inside li{
+   text-align: left;
+   padding: 0;
+   width: 100%;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-left: 20px;
+ }
+
+ #dp ul{
+   flex-wrap: wrap;
+   align-items: flex-start;
+   background-color:  rgb(66, 48, 221);
+}
+
+#dp ul li{
+   width: 100%;
+   text-align: left;
+   font-size: 15px;
+}
+ #dp > ul > li:nth-child(3) ul{
+   display:none;
+   width:100%;
+ }
+
+ #dp > ul > li:nth-child(3) ul li{
+   padding-left: 0;
+   padding-bottom: 5px;
+   
+ }
+ 
